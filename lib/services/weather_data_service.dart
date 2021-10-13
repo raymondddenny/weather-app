@@ -6,7 +6,7 @@ import 'package:weather_app/models/weather_model.dart';
 class WeatherDataService {
   Future<WeatherModel> getWeatherData({required String cityName}) async {
     // api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-    const apiKey = "d66064cc06dcc467f2a5d229855375cb";
+    const apiKey = "YOUR OPEN WEATHER API KEY HERE";
 
     final queryParameters = {'q': cityName, 'appid': apiKey, 'units': 'metric'};
 
